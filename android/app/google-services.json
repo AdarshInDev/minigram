@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "709676975315",
+    "project_id": "mim-1c1c9",
+    "storage_bucket": "mim-1c1c9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:709676975315:android:b5250236b493d5a28d4026",
+        "android_client_info": {
+          "package_name": "app.social.minigram"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDn4XeAGwMAlFdQVZwDT5N5azaaWk-jua8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:709676975315:android:fe026fd1d1bbc9ab8d4026",
+        "android_client_info": {
+          "package_name": "com.example.minigram"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDn4XeAGwMAlFdQVZwDT5N5azaaWk-jua8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
