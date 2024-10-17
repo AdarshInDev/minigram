@@ -36,13 +36,13 @@ class _CreatePostPageState extends State<CreatePostPage> {
     });
   }
 
-  // Function to upload image or video to Firebase Storage and get the URL
+  
   Future<String> _uploadToStorage(File file, String path) async {
     FirebaseStorage storage = FirebaseStorage.instance;
     Reference storageRef = storage.ref().child(path);
     UploadTask uploadTask = storageRef.putFile(file);
     TaskSnapshot snapshot = await uploadTask;
-    return await snapshot.ref.getDownloadURL(); // Get download URL after upload
+    return await snapshot.ref.getDownloadURL(); 
   }
 
   // Function to submit the post

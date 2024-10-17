@@ -3,8 +3,9 @@ import 'package:flutter/material.dart';
 import 'package:minigram/features/auth/data/firebase_auth_repo.dart';
 import 'package:minigram/features/auth/presentation/pages/login_page.dart';
 
+
 import '../../domain/entities/app_user.dart';
-// Replace with your actual login page import
+
 
 class ProfilePage extends StatefulWidget {
   const ProfilePage({super.key});
@@ -67,7 +68,7 @@ class _ProfilePageState extends State<ProfilePage> {
             const Center(
               child: CircleAvatar(
                 radius: 80,
-                // Replace with actual user profile image
+                
               ),
             ),
             const SizedBox(height: 20),
@@ -99,7 +100,7 @@ class _ProfilePageState extends State<ProfilePage> {
               children: <Widget>[
                 ElevatedButton(
                   onPressed: () {
-                    // You can add functionality like edit profile here
+                 
                     print('Edit Profile Pressed');
                   },
                   style: ElevatedButton.styleFrom(
@@ -124,7 +125,7 @@ class _ProfilePageState extends State<ProfilePage> {
             ),
           ],
         ),
-      ),
+      ), 
     );
   }
 }

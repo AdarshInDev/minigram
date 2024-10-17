@@ -2,6 +2,7 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:minigram/features/auth/presentation/pages/post_page.dart';
 import 'package:minigram/features/auth/presentation/pages/profile_page.dart'; // Import the profile page
+
 import 'package:video_player/video_player.dart';
 
 class HomeScreen extends StatefulWidget {
@@ -106,7 +107,7 @@ class _HomeScreenState extends State<HomeScreen> {
         ],
         currentIndex: _selectedIndex,
         onTap: _onItemTapped,
-      ),
+      ), 
     );
   }
 }
